@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <title>My Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <style>
         body {
             margin: 0;
             font-family: 'Segoe UI', Tahoma, sans-serif;
             background: linear-gradient(120deg, #667eea, #764ba2);
-            color: #333;
         }
 
         .card {
@@ -34,6 +38,98 @@
             border-radius: 50%;
             border: 5px solid white;
             object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .content {
+            padding: 30px;
+            color: #333;
+        }
+
+        h2 {
+            color: #4f46e5;
+            margin-bottom: 10px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #eef2ff;
+            color: #3730a3;
+            padding: 8px 14px;
+            margin: 6px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .social {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social a {
+            margin: 0 15px;
+            font-size: 28px;
+            color: #4f46e5;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .social a:hover {
+            transform: scale(1.2);
+            color: #111827;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #f3f4f6;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">
+        <img src="https://via.placeholder.com/150" alt="Profile Photo">
+        <h1>Charry Mae Pastorite</h1>
+        <p>Web Developer | Student</p>
+    </div>
+
+    <div class="content">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer who enjoys building responsive and
+            user-friendly websites.
+        </p>
+
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <h2>Contact</h2>
+        <p>Gmail: pastoritecharrymae@gmail.com</p>
+
+        <!-- Social Media -->
+        <div class="social">
+            <a href="https://www.facebook.com/share/19ixEgdNBF/" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/whos.charry_mae?igsh=MWU0Y3BmejVwZmpkZg==" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 Your Name | Profile Website
+    </div>
+</div>
+
+</body>
+</html>
             margin-bottom: 15px;
         }
 
